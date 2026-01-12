@@ -173,7 +173,7 @@ export default function App() {
         <div
           className="main-background"
           style={{
-            backgroundImage: appSettings?.backgroundImg ? `url(${appSettings.backgroundImg})` : {},
+            backgroundColor: appSettings?.background ? "transparent" : appSettings?.backgroundColor,
             height: " 100%",
             width: "100%",
           }}

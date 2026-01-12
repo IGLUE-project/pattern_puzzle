@@ -1,5 +1,6 @@
 export const DEFAULT_APP_SETTINGS = {
-  backgroundImg: "/images/bg-screen.png",
+  backgroundImg: "NONE",
+  backgroundColor: "#2a2a52",
 };
 
 export const ESCAPP_CLIENT_SETTINGS = {
